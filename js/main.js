@@ -1,26 +1,23 @@
-const $backTop = $(".back-to-top");
-const isHidden = "is-hidden";
+window.addEventListener('scroll', function(){
 
-AOS.init({
-  offset: 200,
-  delay: 50,
-  once: true
-});
-
-/*$('a[data-toggle="pill"]').on("shown.bs.tab", e => {
-  AOS.refresh();
-});*/
-
-$(window).on("scroll", function() {
-  const $this = $(this);
-  if ($this.scrollTop() + $this.height() == $(document).height()) {
-    $backTop.removeClass(isHidden);
-  } else {
-    $backTop.addClass(isHidden);
-  }
-});
-
-$backTop.on("click", () => {
-  $("html, body").animate({ scrollTop: 0 }, "slow");
-  return false;
-});
+    function fade(direction){
+        var Scroleable = document.querySelectorAll('.fade_'+direction);
+        for (let i = 0; i < Scroleable.length; i++) {
+            var altura = window.innerHeight/1.3;
+            var distancia = Scroleable[i].getBoundingClientRect().top;
+            Scroleable[i].classList.add('transform'+direction);
+            if (distancia<=altura) {
+                Scroleable[i].classList.add('aparece');
+            }else{
+                Scroleable[i].classList.remove('aparece');
+            }
+            
+        }
+    }
+    fade('down')
+    fade('right')
+    fade('up')
+    fade('up')
+    fade('right')
+    fade('up')
+})

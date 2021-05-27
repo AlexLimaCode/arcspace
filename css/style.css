@@ -12,6 +12,27 @@ footer {
     /* position: relative; */
 }
 
+/* EFECTOS */
+    section{
+        opacity: 0.5;
+        transition: all 1.5s;
+    }
+    .transformup{
+        transform: translateY(20%);
+    }
+    .transformdown{
+        transform: translateY(-20%);
+    }
+    .transformleft{
+        transform: translateX(20%);
+    }
+    .transformright{
+        transform: translateX(-20%);
+    }
+    .aparece{
+        opacity: 1;
+        transform: none;
+    }
 
 /* VIDEOS */
 .video-container {
