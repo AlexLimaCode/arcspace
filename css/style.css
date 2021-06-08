@@ -1,3 +1,13 @@
+/* NAVBAR */
+.dropdown-item {
+    font-size: small;
+}
+
+li a:hover {
+    color: green !important;
+    font-weight: bold;
+}
+
 * {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
@@ -10,6 +20,10 @@ p {
     line-height: 3;
 }
 /* FOOTER */
+footer a:hover {
+    color: green !important;
+}
+
 footer {
     background-color: black;
     /* background-image: url("../img/3.jpg"); */
