@@ -11,11 +11,12 @@ p {
 }
 /* FOOTER */
 footer {
-    background-image: url("../img/3.jpg");
+    background-color: black;
+    /* background-image: url("../img/3.jpg"); */
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
-    height: 20rem;
+    /* height: 20rem; */
     /* position: relative; */
 }
 
@@ -91,7 +92,7 @@ video {
 }
 
 .mission{
-    font-weight: 900; 
+    font-weight: 900;
     font-style: italic; 
     font-size: 100px;
 }
