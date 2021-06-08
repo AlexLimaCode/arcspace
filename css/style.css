@@ -1,3 +1,17 @@
+/* HIGHLIGHT */
+/* .highlight {
+    background-color:lightgoldenrodyellow;
+} */
+
+/* Linea vertical */
+.vl {
+    border-left: 4px solid green;
+    height: 50px;
+    display: inline-block;
+    margin-right: 1rem;
+    margin-left: 1rem;
+}
+
 /* NAVBAR */
 .dropdown-item {
     font-size: small;
@@ -15,6 +29,16 @@ li a:hover {
 html {
     scroll-behavior: smooth;
 }  
+
+/* TITULOS */
+h6.subtitulo {
+    color: grey;
+}
+
+.titulo {
+    display: inline-block;
+}
+
 .titles{
     color: grey;
     font-family: 'Times New Roman', Times, serif;
@@ -22,9 +46,11 @@ html {
 .subtitles{
     font-weight: bold;
 }
+
 p {
-    line-height: 3;
+    text-align: justify;
 }
+
 /* FOOTER */
 footer a:hover {
     color: green !important;
