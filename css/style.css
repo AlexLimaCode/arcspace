@@ -15,7 +15,13 @@ li a:hover {
 html {
     scroll-behavior: smooth;
 }  
-
+.titles{
+    color: grey;
+    font-family: 'Times New Roman', Times, serif;
+}
+.subtitles{
+    font-weight: bold;
+}
 p {
     line-height: 3;
 }
