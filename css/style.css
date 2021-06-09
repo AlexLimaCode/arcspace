@@ -55,11 +55,23 @@
     margin-left: 0.5rem;
 }
 .titleHR{
-    width: 30%;
-    border: none;
-    height: 10px;
-    color: rgb(22, 65, 3);
-    
+    border-top: 5px solid rgb(15, 54, 0);
+    border-left: 0px solid;
+    width: 20%;
+    display: inline-block;
+}
+.titleHR2{
+    border-top: 5px solid rgb(15, 54, 0);
+    border-left: 0px solid;
+    width: 20%;
+    display: inline-block;
+}
+.titleHR3{
+    border-top: 5px solid rgb(15, 54, 0);
+    border-left: 0px solid;
+    width: 20%;
+    display: inline-block;
+    margin-left: 200px;
 }
 /* NAVBAR */
 .dropdown-item {
@@ -226,5 +238,12 @@ video {
         margin-top: 0px;
         width: 300px; 
         height: 250px;
+    }
+    .titleHR3{
+        border-top: 5px solid rgb(15, 54, 0);
+        border-left: 0px solid;
+        width: 20%;
+        display: inline-block;
+        margin-left: 0px;
     }
 }
