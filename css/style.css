@@ -22,12 +22,16 @@ html {
 .subtitles{
     font-weight: bold;
 }
+.bgris{
+    width: 250px;
+    height: 250px;
+}
 p {
     line-height: 3;
 }
 /* FOOTER */
 footer a:hover {
-    color: green !important;
+    color: rgb(22, 65, 3) !important;
 }
 
 footer {
@@ -110,7 +114,18 @@ video {
     width: 100%;
     height: auto;
 }
-
+.galleryImg{
+    width: 350px;
+    height: 250px;
+}
+.learnMore{
+    margin-left: 200px;
+}
+.padImg{
+    margin-top: 100px;
+    width: 400px; 
+    height: 350px;
+}
 .mission{
     font-weight: 900;
     font-style: italic; 
@@ -126,5 +141,13 @@ video {
         font-weight: 900; 
         font-style: italic; 
         font-size: 50px;
+    }
+    .learnMore{
+        margin-left: 0px;
+    }
+    .padImg{
+        margin-top: 0px;
+        width: 300px; 
+        height: 250px;
     }
 }
