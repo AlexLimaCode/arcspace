@@ -5,11 +5,11 @@
 
 /* Linea vertical */
 .vl {
-    border-left: 4px solid green;
+    border-left: 3px solid green;
     height: 50px;
     display: inline-block;
-    margin-right: 1rem;
-    margin-left: 1rem;
+    margin-right: 0.5rem;
+    margin-left: 0.5rem;
 }
 
 /* NAVBAR */
@@ -33,6 +33,7 @@ html {
 /* TITULOS */
 h6.subtitulo {
     color: grey;
+    font-size: 0.7rem;
 }
 
 .titulo {
