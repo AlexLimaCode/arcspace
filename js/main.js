@@ -17,7 +17,7 @@ window.addEventListener('scroll', function(){
     fade('down')
     fade('right')
     fade('up')
-    fade('up')
+    fade('left')
     fade('right')
     fade('up')
 })
