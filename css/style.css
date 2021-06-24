@@ -1,3 +1,21 @@
+/* BOTONES HOMEPAGE */
+
+.ahome {
+    text-decoration: none;
+    color: rgb(22, 65, 3);
+    border: solid 1px;
+    border-radius: 5px;
+    padding: 0.4rem 0.8rem;
+    /* padding-left: 1rem;
+    padding-right: 1rem; */
+}
+
+.ahome:hover {
+    text-decoration: none;
+    color: white;
+    background-color: rgb(22, 65, 3);
+}
+
 /* HIGHLIGHT */
 /* .highlight {
     background-color:lightgoldenrodyellow;
@@ -140,6 +158,17 @@ p {
 }
 
 /* FOOTER */
+.img-footer{
+    background-color: white;
+    padding: 0px;
+}
+
+/* .imgf {
+    display: inline;
+    width: 50rem;
+    height: 30rem;
+} */
+
 footer a:hover {
     color: rgb(22, 65, 3) !important;
 }
