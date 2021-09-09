@@ -145,7 +145,8 @@ h6.subtitulo {
     font-family: 'Times New Roman', Times, serif;
 }
 .subtitles{
-    font-weight: bold;
+    color: grey;
+    font-family: 'Times New Roman', Times, serif;
 }
 
 .bgris{
