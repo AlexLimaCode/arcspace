@@ -10,6 +10,30 @@
     <title>FAQ</title>
     <link rel="stylesheet" href="css/style.css">
     <script src="./js/main.js"></script>
+    <style>
+        .faq-section .accordion-collapse {
+            border: 0;
+        }
+        .faq-section .accordion-button {
+            padding: 15px 0px 15px;
+            font-weight: bold;
+            border: 0;
+            font-size: 18px;
+            color: #000000;
+            text-align: left;
+            border-bottom: 1px solid rgb(255, 255, 255); 
+        }
+        .faq-section .accordion-button:focus {
+            box-shadow: none;
+        }
+        .faq-section .accordion-button:not(.collapsed) {
+            background: none;
+            color: #000000;
+        }
+        .faq-section .accordion-body {
+            padding: 15px 0px 15px;
+        }
+    </style>
 </head>
 <body>
     <nav class="navbar navbar-expand-sm navbar-light bg-light sticky-top">
@@ -54,7 +78,7 @@
             </div>
         </div>
     </nav>
-    <section style="opacity: 1;">
+    <section class="faq-section" style="opacity: 1;">
         <!-- FAQ ID NO BORRAR -->
         <div id="faq"></div>
         <!--- FAQ   -->
@@ -63,195 +87,229 @@
                 <h2 class="text-center">Frequently Asked Questions</h2>
             </div>
             <br>
-            <p class="accordion-header">
-                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample1" aria-expanded="false" aria-controls="collapseExample">
-                    What does ARCspace build?
-                </button>
-            </p>
-            <div class="collapse" id="collapseExample1">
-                <div class="accordion-body">
-                    Single Family Homes, Accessory Dwelling Units (ADUs), Commercial, Multi-family and Emergency Housing.
+            <div class="accordion accordion-flush" id="faqlist1">
+                <div class="accordion-item">
+                    <p class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample1" aria-expanded="false" aria-controls="collapseExample">
+                            What does ARCspace build?
+                        </button>
+                    </p>
+                    <div class="collapse" id="collapseExample1">
+                        <div class="accordion-body">
+                            Single Family Homes, Accessory Dwelling Units (ADUs), Commercial, Multi-family and Emergency Housing.
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <p class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample2" aria-expanded="false" aria-controls="collapseExample">
+                            What’s the difference between “prefab” and “modular” buildings?
+                        </button>
+                    </p>
+                    <div class="collapse" id="collapseExample2">
+                        <div class="accordion-body">
+                            “Prefab” is a general term used for a prefabricated building or building 
+                            component that is manufactured in a factory prior to its final assembly at the 
+                            construction site, whereas “Modular” refers to something built or organized in 
+                            self-contained units—like building blocks. We offer both types of buildings.
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <p class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#a3" aria-expanded="false" aria-controls="collapseExample">
+                            Do ARCspace units have a warranty?
+                        </button>
+                    </p>
+                    <div class="collapse" id="a3">
+                        <div class="accordion-body">
+                            ARCspace units have a one-year warranty for interior components and a three-year warranty for exterior components.
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <p class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#a4" aria-expanded="false" aria-controls="collapseExample">
+                            What type of decking and cladding are available?
+                        </button>
+                    </p>
+                    <div class="collapse" id="a4">
+                        <div class="accordion-body">
+                            We have fire-resistant recycled plastic (in many different styles) that is 30% less expensive than TREX.
+                            We also have metal and farmhouse style options available, made with recycled faux-wood.
+                            In non-fire areas, we have a range of metal and wood cladding. The only limit is your imagination.
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <p class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#a5" aria-expanded="false" aria-controls="collapseExample">
+                            Are interior finishes customizable?
+                        </button>
+                    </p>
+                    <div class="collapse" id="a5">
+                        <div class="accordion-body">
+                            Yes.  ARCspace interiors are fully customizable, flooring, countertops, fixtures, 
+                            paint, everything.  Our team will work with you to ensure that your unit reflects 
+                            your unique style. (Certain options come at additional cost.)
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <p class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#a6" aria-expanded="false" aria-controls="collapseExample">
+                            Are ARCspace units insulated?
+                        </button>
+                    </p>
+                    <div class="collapse" id="a6">
+                        <div class="accordion-body">
+                            Yes. We utilize environmentally-friendly, plant-based spray foam insulation from JohnsManville and others.
+                            We have also partnered with Drywired, a Los Angeles based nanotech company, who delivers eco-friendly protective thin-film coatings.  These are sprayed onto the ARCspace windows and make our buildings more energy efficient, surfaces cleaner and lessens e-waste.
+                            In short, our buildings have the necessary insulation for cold, mountain applications and humid, tropical island applications.
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <p class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#a7" aria-expanded="false" aria-controls="collapseExample">
+                            Is there heating and air conditioning?
+                        </button>
+                    </p>
+                    <div class="collapse" id="a7">
+                        <div class="accordion-body">
+                            HVAC options are available for ARCspace units. You will have choices on the 
+                            type of heating and air conditioning that you require.
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <p class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#a8" aria-expanded="false" aria-controls="collapseExample">
+                            Are ARCspace units connected to the plumbing system?
+                        </button>
+                    </p>
+                    <div class="collapse" id="a8">
+                        <div class="accordion-body">
+                            Yes, when the foundation is laid for your unit, the plans will indicate where the 
+                            sewer lines will be connected. If a public sewer is not available at your site, you 
+                            may be able to use some of our waste management systems or a septic tank 
+                            (at an additional cost).
+                            We also have additional water treatment solutions, available at an additional cost.
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <p class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#a9" aria-expanded="false" aria-controls="collapseExample">
+                            Are ARCspace units fireproof?
+                        </button>
+                    </p>
+                    <div class="collapse" id="a9">
+                        <div class="accordion-body">
+                            In recent years, we have seen wildfires ravage our forests, towns and 
+                            neighborhoods. We believe that steel modular construction is the answer to 
+                            protecting housing losses from fire. While no building can claim to be “fireproof,” 
+                            our fire resistance is unparalleled. The only vulnerability to fire for an ARCspace 
+                            building is the windows. The unit can be designed with steel window coverings 
+                            to protect the building and items inside.
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <p class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#a11" aria-expanded="false" aria-controls="collapseExample">
+                            Will an ARCspace unit hold up in an earthquake?
+                        </button>
+                    </p>
+                    <div class="collapse" id="a11">
+                        <div class="accordion-body">
+                            Our units are built to meet and exceed California seismic safety requirements. 
+                            Being made from steel, the structures are far less vulnerable to seismic damage.
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <p class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#a12" aria-expanded="false" aria-controls="collapseExample">
+                            Would an ARCspace unit be better in a hurricane? A tornado?
+                        </button>
+                    </p>
+                    <div class="collapse" id="a12">
+                        <div class="accordion-body">
+                            Yes, the steel structure of an ARCspace unit makes it much more resilient 
+                            against high-speed winds.
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <p class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#a13" aria-expanded="false" aria-controls="collapseExample">
+                            Is an ARCspace unit made from a shipping container?
+                        </button>
+                    </p>
+                    <div class="collapse" id="a13">
+                        <div class="accordion-body">
+                            No. We do not use shipping containers.
+                            Housing made from shipping containers can contain materials known to cause 
+                            cancer and other severe illnesses, such as lead paint, DDT wood flooring and 
+                            most are sprayed with toxic insecticide coatings. California and other states have 
+                            now banned their use.
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <p class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#a14" aria-expanded="false" aria-controls="collapseExample">
+                            How sustainable are ARCspace units?
+                        </button>
+                    </p>
+                    <!-- ID CONTACT NO BORRAR -->
+                    <div id="contact"></div>
+                    <div class="collapse" id="a14">
+                        <div class="accordion-body">
+                            ARCspace was initially created in collaboration with the most innovative Green 
+                            tech companies in the world. We will continue working to provide the most 
+                            cutting edge green technology in our units. Further reading of our PR our 
+                            clean-tech partnerships like HydroLoop and TIM will give more advanced detail.
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <p class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#a15" aria-expanded="false" aria-controls="collapseExample">
+                            Which is better, steel or wood construction?
+                        </button>
+                    </p>
+                    <div class="collapse" id="a15">
+                        <div class="accordion-body">
+                            ARCspace is made with durable, responsibly-sourced steel. Not only does steel 
+                            last longer than wood, it is also able to be recycled and repurposed.
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <p class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#a16" aria-expanded="false" aria-controls="collapseExample">
+                            Can I read more about the sustainable, grid-independent, Net Zero applications 
+                            ARCspace has such as Grey Water Reuse, Grid Independent Solar Power, etc?
+                        </button>
+                    </p>
+                    <div class="collapse" id="a16">
+                        <div class="accordion-body">
+                            Please see the “Sustainable Technology Partner Page” on the website.
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <br>
+                    <p class="accordion-header">
+                        While ARCspace will produce “One-Off” projects, we are mostly seeking developer 
+                        partnerships as ARCspace largely targets larger multi house production opportunities.
+                        If your question wasn’t answered here please feel free to send us a note via our 
+                        contact form.
+                    </p>
                 </div>
             </div>
-            <p class="accordion-header">
-                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample2" aria-expanded="false" aria-controls="collapseExample">
-                    What’s the difference between “prefab” and “modular” buildings?
-                </button>
-            </p>
-            <div class="collapse" id="collapseExample2">
-                <div class="accordion-body">
-                    “Prefab” is a general term used for a prefabricated building or building 
-                    component that is manufactured in a factory prior to its final assembly at the 
-                    construction site, whereas “Modular” refers to something built or organized in 
-                    self-contained units—like building blocks. We offer both types of buildings.
-                </div>
-            </div>
-            <p class="accordion-header">
-                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#a3" aria-expanded="false" aria-controls="collapseExample">
-                    Do ARCspace units have a warranty?
-                </button>
-            </p>
-            <div class="collapse" id="a3">
-                <div class="accordion-body">
-                    ARCspace units have a one-year warranty for interior components and a three-year warranty for exterior components.
-                </div>
-            </div>
-            <p class="accordion-header">
-                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#a4" aria-expanded="false" aria-controls="collapseExample">
-                    What type of decking and cladding are available?
-                </button>
-            </p>
-            <div class="collapse" id="a4">
-                <div class="accordion-body">
-                    We have fire-resistant recycled plastic (in many different styles) that is 30% less expensive than TREX.
-                    We also have metal and farmhouse style options available, made with recycled faux-wood.
-                    In non-fire areas, we have a range of metal and wood cladding. The only limit is your imagination.
-                </div>
-            </div>
-            <p class="accordion-header">
-                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#a5" aria-expanded="false" aria-controls="collapseExample">
-                    Are interior finishes customizable?
-                </button>
-            </p>
-            <div class="collapse" id="a5">
-                <div class="accordion-body">
-                    Yes.  ARCspace interiors are fully customizable, flooring, countertops, fixtures, 
-                    paint, everything.  Our team will work with you to ensure that your unit reflects 
-                    your unique style. (Certain options come at additional cost.)
-                </div>
-            </div>
-            <p class="accordion-header">
-                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#a6" aria-expanded="false" aria-controls="collapseExample">
-                    Are ARCspace units insulated?
-                </button>
-            </p>
-            <div class="collapse" id="a6">
-                <div class="accordion-body">
-                    Yes. We utilize environmentally-friendly, plant-based spray foam insulation from JohnsManville and others.
-                    We have also partnered with Drywired, a Los Angeles based nanotech company, who delivers eco-friendly protective thin-film coatings.  These are sprayed onto the ARCspace windows and make our buildings more energy efficient, surfaces cleaner and lessens e-waste.
-                    In short, our buildings have the necessary insulation for cold, mountain applications and humid, tropical island applications.
-                </div>
-            </div>
-            <p class="accordion-header">
-                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#a7" aria-expanded="false" aria-controls="collapseExample">
-                    Is there heating and air conditioning?
-                </button>
-            </p>
-            <div class="collapse" id="a7">
-                <div class="accordion-body">
-                    HVAC options are available for ARCspace units. You will have choices on the 
-                    type of heating and air conditioning that you require.
-                </div>
-            </div>
-            <p class="accordion-header">
-                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#a8" aria-expanded="false" aria-controls="collapseExample">
-                    Are ARCspace units connected to the plumbing system?
-                </button>
-            </p>
-            <div class="collapse" id="a8">
-                <div class="accordion-body">
-                    Yes, when the foundation is laid for your unit, the plans will indicate where the 
-                    sewer lines will be connected. If a public sewer is not available at your site, you 
-                    may be able to use some of our waste management systems or a septic tank 
-                    (at an additional cost).
-                    We also have additional water treatment solutions, available at an additional cost.
-                </div>
-            </div>
-            <p class="accordion-header">
-                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#a9" aria-expanded="false" aria-controls="collapseExample">
-                    Are ARCspace units fireproof?
-                </button>
-            </p>
-            <div class="collapse" id="a9">
-                <div class="accordion-body">
-                    In recent years, we have seen wildfires ravage our forests, towns and 
-                    neighborhoods. We believe that steel modular construction is the answer to 
-                    protecting housing losses from fire. While no building can claim to be “fireproof,” 
-                    our fire resistance is unparalleled. The only vulnerability to fire for an ARCspace 
-                    building is the windows. The unit can be designed with steel window coverings 
-                    to protect the building and items inside.
-                </div>
-            </div>
-            <p class="accordion-header">
-                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#a11" aria-expanded="false" aria-controls="collapseExample">
-                    Will an ARCspace unit hold up in an earthquake?
-                </button>
-            </p>
-            <div class="collapse" id="a11">
-                <div class="accordion-body">
-                    Our units are built to meet and exceed California seismic safety requirements. 
-                    Being made from steel, the structures are far less vulnerable to seismic damage.
-                </div>
-            </div>
-            <p class="accordion-header">
-                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#a12" aria-expanded="false" aria-controls="collapseExample">
-                    Would an ARCspace unit be better in a hurricane? A tornado?
-                </button>
-            </p>
-            <div class="collapse" id="a12">
-                <div class="accordion-body">
-                    Yes, the steel structure of an ARCspace unit makes it much more resilient 
-                    against high-speed winds.
-                </div>
-            </div>
-            <p class="accordion-header">
-                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#a13" aria-expanded="false" aria-controls="collapseExample">
-                    Is an ARCspace unit made from a shipping container?
-                </button>
-            </p>
-            <div class="collapse" id="a13">
-                <div class="accordion-body">
-                    No. We do not use shipping containers.
-                    Housing made from shipping containers can contain materials known to cause 
-                    cancer and other severe illnesses, such as lead paint, DDT wood flooring and 
-                    most are sprayed with toxic insecticide coatings. California and other states have 
-                    now banned their use.
-                </div>
-            </div>
-            <p class="accordion-header">
-                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#a14" aria-expanded="false" aria-controls="collapseExample">
-                    How sustainable are ARCspace units?
-                </button>
-            </p>
-            <!-- ID CONTACT NO BORRAR -->
-            <div id="contact"></div>
-            <div class="collapse" id="a14">
-                <div class="accordion-body">
-                    ARCspace was initially created in collaboration with the most innovative Green 
-                    tech companies in the world. We will continue working to provide the most 
-                    cutting edge green technology in our units. Further reading of our PR our 
-                    clean-tech partnerships like HydroLoop and TIM will give more advanced detail.
-                </div>
-            </div>
-            <p class="accordion-header">
-                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#a15" aria-expanded="false" aria-controls="collapseExample">
-                    Which is better, steel or wood construction?
-                </button>
-            </p>
-            <div class="collapse" id="a15">
-                <div class="accordion-body">
-                    ARCspace is made with durable, responsibly-sourced steel. Not only does steel 
-                    last longer than wood, it is also able to be recycled and repurposed.
-                </div>
-            </div>
-            <p class="accordion-header">
-                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#a16" aria-expanded="false" aria-controls="collapseExample">
-                    Can I read more about the sustainable, grid-independent, Net Zero applications 
-                    ARCspace has such as Grey Water Reuse, Grid Independent Solar Power, etc?
-                </button>
-            </p>
-            <div class="collapse" id="a16">
-                <div class="accordion-body">
-                    Please see the “Sustainable Technology Partner Page” on the website.
-                </div>
-            </div>
-            <br>
-            <p class="accordion-header">
-                While ARCspace will produce “One-Off” projects, we are mostly seeking developer 
-                partnerships as ARCspace largely targets larger multi house production opportunities.
-                If your question wasn’t answered here please feel free to send us a note via our 
-                contact form.
-            </p>
             <br>
         </div>
         <!--- END FAQ   -->
