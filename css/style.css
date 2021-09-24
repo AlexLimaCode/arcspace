@@ -170,7 +170,10 @@ h6.subtitulo {
 footer a:hover {
     color: rgb(22, 65, 3) !important;
 }
-
+.images-project{
+    width: 90px;
+    height: 100px;
+}
 footer {
     background-color: black;
     /* background-image: url("../img/3.jpg"); */
@@ -293,5 +296,10 @@ video {
         width: 20%;
         display: inline-block;
         margin-left: 0px;
+    }
+    .images-project{
+        width: 30px;
+        height: 40px;
+        margin-bottom: 27px;
     }
 }
