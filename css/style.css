@@ -271,6 +271,11 @@ video {
     font-style: italic; 
     font-size: 100px;
 }
+.logoin{
+    margin-left: 100px; 
+    width: 100px; 
+    height: 100px;
+}
 
 @media (max-width: 500px){
     .modalvid {
@@ -301,5 +306,11 @@ video {
         width: 30px;
         height: 40px;
         margin-bottom: 27px;
+    }
+    .logoin{
+        margin-left: 220px;
+        margin-top: -110px;
+        width: 110px; 
+        height: 110px;
     }
 }
